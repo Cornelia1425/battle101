@@ -3,91 +3,91 @@
       {
         "id": 1,
         "name": "BATTLE 101 2024 April",
-        "cover_img": "./src/assets/00_homepage.png",
+        "cover_img": "00_homepage.jpg",
         "words": "WINNER_Hurricane"
       },
       {
         "id": 2,
         "name": "BATTLE 101 2024 March",
-        "cover_img": "src/assets/01.png",
+        "cover_img": "01.png",
         "words": "WINNER_Hurricane"
       },
       {
         "id": 3,
         "name": "BATTLE 101 2024 Feb",
-        "cover_img": "src/assets/02.png",
+        "cover_img": "02.jpg",
         "words": "WINNER_Hurricane"
       },
       {
         "id": 4,
         "name": "BATTLE 101 2024 Jan",
-        "cover_img": "./src/assets/03.png",
+        "cover_img": "03.png",
         "words": "WINNER_Hurricane"
       },
       {
         "id": 5,
         "name": "BATTLE 101 2024 Feb",
-        "cover_img": "src/assets/02.png",
+        "cover_img": "04.png",
         "words": "WINNER_Hurricane"
       },
       {
         "id": 6,
         "name": "BATTLE 101 2024 Feb",
-        "cover_img": "src/assets/02.png",
+        "cover_img": "04.png",
         "words": "WINNER_Hurricane"
       },
       {
         "id": 7,
         "name": "BATTLE 101 2024 Feb",
-        "cover_img": "src/assets/02.png",
+        "cover_img": "05.png",
         "words": "WINNER_Hurricane"
       },
       {
         "id": 8,
         "name": "BATTLE 101 2024 Feb",
-        "cover_img": "src/assets/02.png",
+        "cover_img": "06.png",
         "words": "WINNER_Hurricane"
       },
       {
         "id": 9,
         "name": "BATTLE 101 2024 Feb",
-        "cover_img": "src/assets/02.png",
+        "cover_img": "07.png",
         "words": "WINNER_Hurricane"
       },
       {
         "id": 10,
         "name": "BATTLE 101 2024 Feb",
-        "cover_img": "src/assets/02.png",
+        "cover_img": "08.png",
         "words": "WINNER_Hurricane"
       },
       {
         "id": 11,
         "name": "BATTLE 101 2024 Feb",
-        "cover_img": "src/assets/02.png",
+        "cover_img": "09.png",
         "words": "WINNER_Hurricane"
       },
       {
         "id": 12,
         "name": "BATTLE 101 2024 Feb",
-        "cover_img": "src/assets/02.png",
+        "cover_img": "10.png",
         "words": "WINNER_Hurricane"
       },
       {
         "id": 13,
         "name": "BATTLE 101 2024 Feb",
-        "cover_img": "src/assets/02.png",
+        "cover_img": "11.png",
         "words": "WINNER_Hurricane"
       },
       {
         "id": 14,
         "name": "BATTLE 101 2024 Feb",
-        "cover_img": "src/assets/02.png",
+        "cover_img": "12.png",
         "words": "WINNER_Hurricane"
       },
       {
         "id": 15,
         "name": "BATTLE 101 2024 Feb",
-        "cover_img": "src/assets/02.png",
+        "cover_img": "13.png",
         "words": "WINNER_Hurricane"
       }
     ]

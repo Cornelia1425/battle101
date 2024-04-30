@@ -8,12 +8,17 @@ export default function PosterCard({poster}){
 
     return (
         <div className="card" onClick={()=>setIsImage(!isImage)}>
+        
         {isImage ?  
         (<>
         <h2>{poster.name}</h2>
-        <img className="" src={poster.cover_img} alt={poster.name} />
+        <img  src={`../assets/${poster.cover_img}`} alt={poster.id} />
         </>) :
-        (<PosterFacts poster={poster}/>) 
+        (<>
+        
+        <PosterFacts poster={poster}/>
+        </>
+        ) 
         }
         </div>
     )

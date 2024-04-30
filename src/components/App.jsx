@@ -16,7 +16,7 @@ export default function App(){
     console.log("posters: ", posters)
 
     return(
-        <div className="">
+        <div className="App dark-mode">
             {/* <StarField /> */}
             <h1>BATTLE 101 Past Events</h1>
 
