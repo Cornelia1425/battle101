@@ -19,6 +19,7 @@ export default function App(){
         <div className="App dark-mode">
             {/* <StarField /> */}
             <h1>BATTLE 101 Past Events</h1>
+            <br />
 
             <PostersContainer posters={posters}/>
 
