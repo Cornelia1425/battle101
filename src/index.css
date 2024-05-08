@@ -100,3 +100,29 @@ body {
     margin: 1em;
   }
   
+
+  .cardfacts{
+    font-family:  'Roboto', 'Oxygen',
+    'Ubuntu',
+    sans-serif;
+    font-size: 18px;
+    font-variant: small-caps;
+    margin-top: -5vh;
+  }
+
+
+  .winner{
+    font-family:  'Roboto', 'Oxygen',
+    'Ubuntu',
+    sans-serif;
+    font-size: 30px;
+    margin-top: 10vh;
+  }
+
+  .active{
+    color:rgba(255, 255, 255, 0.771);
+  }
+
+  .nav{
+    color:rgba(255, 255, 255, 0.771);
+  }
