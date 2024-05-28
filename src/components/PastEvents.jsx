@@ -1,5 +1,4 @@
 import PostersContainer from './PostersContainer'
-
 import React, {useState, useEffect} from 'react'
 
 export default function PastEvents(){

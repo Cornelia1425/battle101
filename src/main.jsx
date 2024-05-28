@@ -7,6 +7,7 @@ import About from './components/About'
 import Videos from './components/Videos'
 import PastEvents from './components/PastEvents'
 import ErrorPage from './components/ErrorPage'
+import PosterAddDelete from './components/PosterAddDelete'
 import {RouterProvider, createBrowserRouter} from 'react-router-dom'
 import {videosLoader} from './components/loaders'
 
@@ -31,6 +32,11 @@ const routes = [
             {
                 element:<PastEvents />,
                 path:'pastevents',
+                errorElement:<ErrorPage/>,
+            },
+            {
+                element:<PosterAddDelete />,
+                path:'add',
                 errorElement:<ErrorPage/>,
             },
             {
