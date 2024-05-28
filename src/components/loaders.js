@@ -1,5 +1,5 @@
 export async function videosLoader(){
-    const response = await fetch ('http://localhost:4004/posters')
+    const response = await fetch ('http://localhost:3000/posters')
 
     const data = await response.json()
 

@@ -5,6 +5,8 @@ import App from './components/App'
 import Home from './components/Home'
 import About from './components/About'
 import Videos from './components/Videos'
+import PastEvents from './components/PastEvents'
+import ErrorPage from './components/ErrorPage'
 import {RouterProvider, createBrowserRouter} from 'react-router-dom'
 import {videosLoader} from './components/loaders'
 
@@ -12,24 +14,31 @@ const routes = [
     {
         element: <App />,
         path: '/',
+        errorElement:<ErrorPage/>,
         children:[
             {
                 index:true,
-                element:<Home />
+                element:<Home />,
+                errorElement:<ErrorPage/>
 
             },
             {
-    
                 element:<Videos />,
                 path:'videos',
+                errorElement:<ErrorPage/>,
                 loader: videosLoader
             },
             {
-    
-                element:<About />,
-                path:'about'
-           
+                element:<PastEvents />,
+                path:'pastevents',
+                errorElement:<ErrorPage/>,
             },
+            {
+                element:<About />,
+                path:'about',
+                errorElement:<ErrorPage/>
+           
+            }
         ]
     }
 ]
