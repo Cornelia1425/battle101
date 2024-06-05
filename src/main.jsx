@@ -8,6 +8,8 @@ import Videos from './components/Videos'
 import PastEvents from './components/PastEvents'
 import ErrorPage from './components/ErrorPage'
 import PosterAddDelete from './components/PosterAddDelete'
+import EventRecord from './components/EventRecord'
+import Shop from './components/Shop'
 import {RouterProvider, createBrowserRouter} from 'react-router-dom'
 import {videosLoader} from './components/loaders'
 
@@ -20,30 +22,34 @@ const routes = [
             {
                 index:true,
                 element:<Home />,
-                errorElement:<ErrorPage/>
-
+                path: '/',
             },
             {
                 element:<Videos />,
                 path:'videos',
-                errorElement:<ErrorPage/>,
                 loader: videosLoader
             },
             {
                 element:<PastEvents />,
                 path:'pastevents',
-                errorElement:<ErrorPage/>,
             },
             {
                 element:<PosterAddDelete />,
                 path:'add',
-                errorElement:<ErrorPage/>,
             },
             {
                 element:<About />,
                 path:'about',
-                errorElement:<ErrorPage/>
-           
+            }
+            ,
+            {
+                element:<EventRecord />,
+                path:'record/:id',        
+            }
+            ,
+            {
+                element:<Shop />,
+                path:'shop',        
             }
         ]
     }

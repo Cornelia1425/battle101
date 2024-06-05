@@ -4,10 +4,10 @@ function Home(){
 
    
     return (
-        <>
-        <h2>Battle101 Home Page</h2>
+        <div className="homeBackgound">
+            {/* <h2>Battle101 Home Page</h2>    */}
 
-        </>
+        </div>
     )
 
 }

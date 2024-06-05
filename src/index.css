@@ -1,3 +1,8 @@
+/* Imported fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Kite+One&family=Poetsen+One&display=swap');
+
+
+
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -36,7 +41,10 @@ body {
     position: relative;
     z-index: 1;
   }
-  
+  .card_container{
+    perspective: 1000px;
+
+  }
   .card {
     border: solid black 2px;
     border-left: none;
@@ -47,11 +55,51 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-width: 300px;
+    min-width: 240px;
+    height:280px;
     padding: 0.5em;
     padding-bottom: 2em;
+    margin: 30px 30px 30px 30px;
+
+
+    position:relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+
+
+  }
+
+  /*THESE ARE TOGGLE CARD FRONT AND BACK*/
+  .card_front, .card_back{
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+    
+  }
+
+  .card_front{
+    transform: rotateY(0deg);
+  }
+
+  .card_back{
+    transform: rotateY(180deg);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+
+  .card:hover .card_front{
+    transform: rotateY(-180deg);
+  
+  }
+
+  .card:hover .card_back{
+    transform: rotateY(0deg);
+ 
   }
   
+    /*THESE ARE TOGGLE CARD CSS*/
   .light-mode .card {
     border-color: white;
   }
@@ -64,6 +112,7 @@ body {
     border: solid white 2px;
     border-left: none;
     border-right: none;
+
   }
   
   .card p {
@@ -76,6 +125,7 @@ body {
     width: 200px;
     height: 200px;
     border: solid white 2px;
+    padding:0px
   }
   
   .card img.not-planet {
@@ -119,10 +169,98 @@ body {
     margin-top: 10vh;
   }
 
-  .active{
-    color:rgba(255, 255, 255, 0.771);
+  .nav-link{
+    text-decoration: none;
+    color:rgba(122 122 122);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', sans-serif;
+    font-size: 35px;
+    font-weight:500;
+    
   }
 
-  .nav{
-    color:rgba(255, 255, 255, 0.771);
+  .nav-link:hover{
+    color: white
+
   }
+  .active{
+    /* color: rgb(224, 81, 29); */
+    color:rgba(255, 255, 255);
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI';
+    font-size: 35px;
+    font-weight:500
+  }
+
+  .nav_container{
+    color:rgba(255, 255, 255, 0.771);
+    display:flex;
+    justify-content:space-between;
+    margin: 0.1rem 3.5rem 2rem 3.5rem
+  }
+
+ 
+
+  .header_logo{
+    height:6rem;
+    margin: 20px 0 7px 0
+  }
+
+  .h1_title{
+    background-color: black;
+  }
+
+  .homeBackgound {
+    background-image:url('./assets/00_bg1.png');
+    background-size:cover;
+    background-position:center;
+    height: 100vh;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center
+  }
+
+  .footer_links {
+    display: flex;
+    gap: 1rem;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    margin: 100px 0 100px 30px;
+    background-color: black;
+    clear: both;
+  }
+
+  a{
+    text-decoration: none;
+    color: #e1ebdf;
+  }
+
+  .group_img{
+    height:400px;
+    min-width: 200px;
+    margin: 50px 50px 300px 50px;
+    float:right
+  }
+
+ .video_search_container{
+  margin:10px 0 50px 0px;
+ }
+
+ .video_frame{
+  display: flex;
+  position:relative;
+  align-items: center;
+  width: 100%; /* Make the iframe responsive */
+  max-width: 560px; /* Ensure it doesn't exceed the standard size */
+  min-height:auto;
+  margin: 20px auto auto auto; /* Add some spacing around each video */
+  border: none; /* Remove any default borders */
+ }
+
+
+ button, input[type=submit] {
+  border: solid white 1px;
+  border-radius: 0.5em;
+  background: none;
+  font-family: 'Permanent Marker', cursive;
+}

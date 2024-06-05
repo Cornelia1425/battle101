@@ -3,24 +3,26 @@ import {NavLink} from 'react-router-dom'
 export default function NavBar(){
 
     return (
-        <nav className='nav'>
-            <NavLink   className={({isActive}) => isActive? "active" : ""} to='/' >
+        <nav className='nav_container'>
+            <NavLink   className={({isActive}) => isActive? "active" : "nav-link"} to='/' >
             Home
-            </NavLink> <br />
-            <NavLink   className={({isActive}) => isActive? "active" : ""} to='/pastevents' >
-            Past Events
-            </NavLink> <br />
-            <NavLink   className={({isActive}) => isActive? "active" : ""} to='/add' >
+            </NavLink> 
+            <NavLink   className={({isActive}) => isActive? "active" : "nav-link"} to='/pastevents' >
+            Events
+            </NavLink> 
+       {/* <NavLink   className={({isActive}) => isActive? "active" : "nav-link"} to='/add' >
             Secret add and delete
-            </NavLink> <br />
-            <NavLink   className={({isActive}) => isActive? "active" : ""} to='/videos'>
+            </NavLink>      */}
+            <NavLink   className={({isActive}) => isActive? "active" : "nav-link"} to='/videos'>
             Videos
-            </NavLink><br />
-            <NavLink   className={({isActive}) => isActive? "active" : ""} to='/about'>
+            </NavLink>
+            <NavLink   className={({isActive}) => isActive? "active" : "nav-link"} to='/about'>
             About
             </NavLink>
-
-
+       
+            <NavLink   className={({isActive}) => isActive? "active" : "nav-link"} to='/shop'>
+            Shop
+            </NavLink>
         </nav>
     )
 }

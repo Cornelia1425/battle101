@@ -2,126 +2,123 @@
   "posters": [
     {
       "id": 1,
-      "name": "BATTLE 101 2024 April",
+      "name": "BATTLE 101 2022 October",
       "cover_img": "00_homepage.jpg",
+      "group_img": "group0.png",
       "words": "WINNER_Hurricane",
-      "url": "https://www.youtube.com/embed/9VC_5Cxg1NM?si=eAMosmmAwlIG3HXM"
+      "url": "https://www.youtube.com/embed/KPOvzHxVG_8?si=kVxeNXPV1yzvVMqS"
     },
     {
       "id": 2,
-      "name": "BATTLE 101 2024 March",
+      "name": "BATTLE 101 2022 October",
       "cover_img": "01.png",
+      "group_img": "group1.png",
       "words": "WINNER_Hurricane",
-      "url": "https://www.youtube.com/embed/9VC_5Cxg1NM?si=eAMosmmAwlIG3HXM"
+      "url": "https://www.youtube.com/embed/oqUTmfvQgck?si=yrm5f5MvOkdfN0OQ"
     },
     {
       "id": 3,
-      "name": "BATTLE 101 2024 Feb",
+      "name": "BATTLE 101 2022 September",
       "cover_img": "02.jpg",
+      "group_img": "group2.png",
       "words": "WINNER_Hurricane",
-      "url": "https://www.youtube.com/embed/9VC_5Cxg1NM?si=eAMosmmAwlIG3HXM"
+      "url": "https://www.youtube.com/embed/6caJ0eyM8Vc?si=0sHa37zWydL7PUms"
     },
     {
       "id": 4,
-      "name": "BATTLE 101 2024 Jan",
+      "name": "BATTLE 101 2022 September",
       "cover_img": "03.png",
+      "group_img": "group3.png",
       "words": "WINNER_Hurricane",
-      "url": "https://www.youtube.com/embed/9VC_5Cxg1NM?si=eAMosmmAwlIG3HXM"
+      "url": "https://www.youtube.com/embed/jvLJ9Gmpl3w?si=sDlT6WZC7jRCvTL3"
     },
     {
       "id": 5,
-      "name": "BATTLE 101 2024 Feb",
+      "name": "BATTLE 101 2022 August",
       "cover_img": "04.png",
+      "group_img": "group4.png",
       "words": "WINNER_Hurricane",
-      "url": "https://www.youtube.com/embed/9VC_5Cxg1NM?si=eAMosmmAwlIG3HXM"
+      "url": "https://www.youtube.com/embed/n82GFb-_wqY?si=7HnysZuTbbF8PfNk"
     },
     {
       "id": 6,
       "name": "BATTLE 101 2024 Feb",
       "cover_img": "04.png",
-      "words": "WINNER_Hurricane"
+      "group_img": "group5.png",
+      "words": "WINNER_Hurricane",
+      "url": "https://www.youtube.com/embed/3K83RTOHWzo?si=i3iIo74O1r5orhEI"
     },
     {
       "id": 7,
-      "name": "BATTLE 101 2024 Feb",
+      "name": "BATTLE 101 2024 Cat",
       "cover_img": "05.png",
-      "words": "WINNER_Hurricane"
+      "group_img": "group6.png",
+      "words": "WINNER_Hurricane",
+      "url": "https://www.youtube.com/embed/9VC_5Cxg1NM?si=eAMosmmAwlIG3HXM"
     },
     {
       "id": 8,
       "name": "BATTLE 101 2024 Feb",
       "cover_img": "06.png",
+      "group_img": "group6.png",
       "words": "WINNER_Hurricane"
     },
     {
       "id": 9,
       "name": "BATTLE 101 2024 Feb",
       "cover_img": "07.png",
+      "group_img": "group6.png",
       "words": "WINNER_Hurricane"
     },
     {
       "id": 10,
       "name": "BATTLE 101 2024 Feb",
       "cover_img": "08.png",
+      "group_img": "group6.png",
       "words": "WINNER_Hurricane"
     },
     {
       "id": 11,
       "name": "BATTLE 101 2024 Feb",
       "cover_img": "09.png",
+      "group_img": "group6.png",
       "words": "WINNER_Hurricane"
     },
     {
       "id": 12,
       "name": "BATTLE 101 2024 Feb",
       "cover_img": "10.png",
+      "group_img": "group6.png",
       "words": "WINNER_Hurricane"
     },
     {
       "id": 13,
       "name": "BATTLE 101 2024 Feb",
       "cover_img": "11.png",
+      "group_img": "group6.png",
       "words": "WINNER_Hurricane"
     },
     {
       "id": 14,
       "name": "BATTLE 101 2024 Feb",
       "cover_img": "12.png",
+      "group_img": "group6.png",
       "words": "WINNER_Hurricane"
     },
     {
       "id": 15,
       "name": "BATTLE 101 2024 Feb",
       "cover_img": "13.png",
+      "group_img": "group6.png",
       "words": "WINNER_Hurricane"
     },
     {
       "cover_img": "test.jpeg",
+      "group_img": "group6.png",
       "name": "test",
       "words": "test",
       "url": "test",
       "id": 16
-    },
-    {
-      "cover_img": "",
-      "name": "",
-      "words": "",
-      "url": "",
-      "id": 17
-    },
-    {
-      "cover_img": "",
-      "name": "",
-      "words": "",
-      "url": "",
-      "id": 18
-    },
-    {
-      "cover_img": "test.jpeg",
-      "name": "new test",
-      "words": "test22",
-      "url": "",
-      "id": 19
     },
     {
       "cover_img": "test.jpeg",
@@ -131,11 +128,34 @@
       "id": 20
     },
     {
-      "cover_img": "test.jpeg",
-      "name": "test4",
-      "words": "44",
+      "cover_img": "cat.png",
+      "name": "11",
+      "words": "11",
+      "url": "11",
+      "id": 28
+    },
+    {
+      "cover_img": "cat0.png",
+      "name": "cat",
+      "words": "",
       "url": "",
-      "id": 21
+      "id": 29
+    },
+    {
+      "cover_img": "cat3.png",
+      "group_img": "",
+      "name": "cat",
+      "words": "",
+      "url": "",
+      "id": 31
+    },
+    {
+      "cover_img": "cat.png",
+      "group_img": "",
+      "name": "",
+      "words": "",
+      "url": "",
+      "id": 32
     }
   ]
 }
