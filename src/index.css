@@ -239,9 +239,20 @@ body {
 
   .group_img{
     height:400px;
-    min-width: 200px;
+    /* min-width: 200px; */
     margin: 50px 50px 300px 50px;
-    float:right
+    /* float:right */
+    width:50%;
+    
+  }
+
+  #group_vertical{
+    display:flex;
+    flex-direction: row;
+    /* justify-content: right; */
+    /* align-items: flex-end; */
+    overflow-y: auto;
+    
   }
 
  .video_search_container{

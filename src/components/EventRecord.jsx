@@ -19,7 +19,10 @@ export default function EventRecord(){
 
     console.log("EventRecord poster.group_img: ", poster.group_img)
     return (
-        <div>
+        <div id="group_vertical">
+            <img className="group_img" src={`../assets/${poster.group_img}`}  alt={poster.name}/>
+            <img className="group_img" src={`../assets/${poster.group_img}`}  alt={poster.name}/>
+            <img className="group_img" src={`../assets/${poster.group_img}`}  alt={poster.name}/>
             <img className="group_img" src={`../assets/${poster.group_img}`}  alt={poster.name}/>
         </div>
     )
