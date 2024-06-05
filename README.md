@@ -41,7 +41,68 @@ adding backend database for winners, users,
 0604
 
 // added record page for each poster - done
-//create delete event 
-//change click toggle to hover toggle
+// change click toggle to hover toggle - done
+// search css - done, for now
+// video css - loading not working, tmr Chett help!!!!!!!!!!
+// hover link text, white - done
+// add shop component - done
+// create delete event - 
+delete event not using button, but use id? would that be easier since its backend? but its cooler if using button
 
-// video css
+
+0607
+
+for Battle 101
+// delete function. - done
+// shop function, so backend?! hold for today.
+
+// add facebook link in footer, lets not add it now.
+// add youtube link in footer - done
+https://www.youtube.com/@moversbodega
+
+for new projects:
+// do my own dance project. the front end displaying videos, dance photos page, categories should be easy. 
+-- really need to do the backend. for my own project, start the teacher and student relationship backend data. models.
+
+// MOPTOP Univeral 
+
+
+reference :
+
+https://www.layerhythm.org/
+
+https://www.ladiesofhiphop.com/
+
+
+For CSS, i want to learn by fixing my own phase-2 project Architheatre.
+
+
+
+//summer breeze website, that's my own website's frontend. my own experience can be bio?
+
+// start MOPTOP Universal front end. Backend do teachers model first.
+
+
+
+others today.
+// send old videos to Spotlight Studio
+--tidy up Link foundation steps and dance it out on the terrace (this weekend.)
+
+// build my own dance website
+-- with portfolio link 
+-- get the structure ready, upload materials on Friday
+
+// apply for movement research artist in residence program by June 10th. 
+
+
+
+
+// Performance Studies
+-- schedule a meeting with Andre Lepecki - done, wait for reply
+GOAL - have performance in MOMA
+    - have performance in the W
+
+-- email official transcripts
+
+// Schedule online meeting with ProfessorMoncell@gmail.com??? Hold.
+

@@ -1,21 +1,26 @@
 import React from 'react'
 import PosterFacts from './PosterFacts'
 import {useState} from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 
-export default function PosterCard({poster}){
+export default function PosterCard({poster, onRemove}){
     // const [isImage, setIsImage] = useState(true)
     console.log("card poster", poster)
 
     function handleRemove(e){
-        e.stopProgation()
-        onpointermove(poster.id)
+        e.stopPropagation()
+        onRemove(poster.id)
 
         fetch(`http://localhost:3000/posters/${poster.id}`,{
             method:"DELETE"
         })
     }
+
+  
+    const location = useLocation()
+    const isVisible = location.pathname === '/add'
+    
 
     return (
         /***** this is click flip *****/
@@ -42,10 +47,12 @@ export default function PosterCard({poster}){
                 <div className="card_back">
                     <Link to={`/record/${poster.id}`} key={poster.id}> 
                         <PosterFacts poster={poster}/>
-                        <button onClick={handleRemove}>Remove</button>
+                        
                     </Link>
                 </div>
+               
             </div>
+            {isVisible && <button className="deleteButton" onClick={handleRemove}>Remove</button>}
        
         </div>
        

@@ -1,6 +1,8 @@
 /* Imported fonts */
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Kite+One&family=Poetsen+One&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Permanent+Marker&display=swap');
+
 
 
 body {
@@ -258,9 +260,22 @@ body {
  }
 
 
- button, input[type=submit] {
+input[type=submit] {
+  border: solid white 1px;
+  border-radius: 0.1rem;
+  background: white;
+  font-family: 'Permanent Marker';
+}
+
+
+.deleteButton{
   border: solid white 1px;
   border-radius: 0.5em;
   background: none;
   font-family: 'Permanent Marker', cursive;
+  display:relative;
+  position: top;
+  margin: 0 0 90px 0;
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
 }

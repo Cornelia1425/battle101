@@ -25,6 +25,8 @@ function handleSubmit(e){
     )
 }
 
+
+
 return(
     <form className="poster_form" onSubmit={handleSubmit}>
         <h2>Add A New Event</h2>
@@ -49,7 +51,7 @@ return(
         <input name="url" onChange={e=>setUrl(e.target.value)} placeholder="Event Video Link" value={url}/>
         </div>
         <label htmlFor="url">💫 SUBMIT 💫  </label>
-        <input type="submit" value="Add Poster"/>
+        <input type="submit" value="Add Poster" />
 
 
     </form>

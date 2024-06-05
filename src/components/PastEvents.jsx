@@ -13,11 +13,17 @@ export default function PastEvents(){
         .then(posterArray=>setPosters(posterArray))
     },[])    
     console.log("PastEvents posters: ", posters)
+
+    function onRemove(id){
+        const array_after_remove = posters.filter((poster)=>
+        id===poster.id? false : true) //returns true for all other posters not this id, array.fitler(rule), whoever the rule returns true, remain in the array. if id1, 1==1, return false, so not include in the new array
+        setPosters(array_after_remove)
+    }
     return (
         <>
         {/* <h2>Battle101 Past Events</h2> */}
 
-        <PostersContainer posters={posters}/>
+        <PostersContainer posters={posters} onRemove={onRemove}/>
    
 
       

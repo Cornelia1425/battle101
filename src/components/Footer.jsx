@@ -5,8 +5,8 @@ export default function Footer(){
     return(
         <div>
             <div className="footer_links">
-                <Link to="/">
-                    Home
+                <Link to="https://www.youtube.com/@moversbodega">
+                    Youtube
                 </Link>
 
                 <Link to="https://www.instagram.com/battle101nyc/">

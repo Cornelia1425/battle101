@@ -4,9 +4,9 @@ import PosterCard from './PosterCard'
 
 
 
-export default function PostersContainer({posters}){
+export default function PostersContainer({posters, onRemove}){
     const mappedPosters = posters.map(poster => (     
-        <PosterCard poster={poster} key={poster.id}/>
+        <PosterCard poster={poster} key={poster.id} onRemove={onRemove}/>
 )
 )
 

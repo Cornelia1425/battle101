@@ -113,49 +113,12 @@
       "words": "WINNER_Hurricane"
     },
     {
-      "cover_img": "test.jpeg",
-      "group_img": "group6.png",
-      "name": "test",
-      "words": "test",
-      "url": "test",
-      "id": 16
-    },
-    {
-      "cover_img": "test.jpeg",
-      "name": "test3",
-      "words": "333",
-      "url": "",
-      "id": 20
-    },
-    {
-      "cover_img": "cat.png",
-      "name": "11",
-      "words": "11",
-      "url": "11",
-      "id": 28
-    },
-    {
-      "cover_img": "cat0.png",
-      "name": "cat",
-      "words": "",
-      "url": "",
-      "id": 29
-    },
-    {
-      "cover_img": "cat3.png",
-      "group_img": "",
-      "name": "cat",
-      "words": "",
-      "url": "",
-      "id": 31
-    },
-    {
-      "cover_img": "cat.png",
+      "cover_img": "",
       "group_img": "",
       "name": "",
       "words": "",
       "url": "",
-      "id": 32
+      "id": 16
     }
   ]
 }
