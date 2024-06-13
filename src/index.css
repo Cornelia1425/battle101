@@ -171,6 +171,14 @@ body {
     margin-top: 10vh;
   }
 
+  .nav_container{
+    color:rgba(255, 255, 255, 0.771);
+    display:flex;
+    justify-content:space-between;
+    margin: 0.1rem 3.5rem 2rem 3.5rem
+  }
+
+
   .nav-link{
     text-decoration: none;
     color:rgba(122 122 122);
@@ -194,13 +202,7 @@ body {
     font-weight:500
   }
 
-  .nav_container{
-    color:rgba(255, 255, 255, 0.771);
-    display:flex;
-    justify-content:space-between;
-    margin: 0.1rem 3.5rem 2rem 3.5rem
-  }
-
+  
  
 
   .header_logo{

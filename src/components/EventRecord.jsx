@@ -13,9 +13,9 @@ export default function EventRecord(){
         .then((res=>res.json()))
         .then(poster=>setPoster(poster))
     },[])    
-    if (!poster.group_img){
-        return <h1>Loading...</h1>
-    }
+    // if (!poster.group_img){
+    //     return <h1>Loading...</h1>
+    // }
 
     console.log("EventRecord poster.group_img: ", poster.group_img)
     return (

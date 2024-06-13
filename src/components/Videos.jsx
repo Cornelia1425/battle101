@@ -6,7 +6,7 @@ export default function Videos (){
     const videos = useLoaderData()
     if (!videos || videos.length === 0) {
         return <h1>Loading...</h1>;
-      }
+      } //not working, whyy?? ask Chett aahaaaahhhh
   
     const [search, setSearch] = useState('')
 
@@ -14,18 +14,21 @@ export default function Videos (){
         .filter(video =>video.name.toLowerCase().includes(search.toLowerCase()))
         .map(video=>{
             return(
-                <iframe 
-                key={video.id} 
-                className="video_frame"
-                width="560" 
-                height="315" 
-                src={video.url} 
-                title="YouTube video player" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" 
-                allowfullscreen>
-                </iframe>
+                <div className="video_frame" style={{height: '340px', width: '580px',border: 'solid white 1px'}}>
+                    <iframe 
+                    key={video.id} 
+                    className="video_frame"
+                    width="560" 
+                    height="315" 
+                    src={video.url} 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen>
+                    </iframe>
+
+                </div>
             )
         })
 

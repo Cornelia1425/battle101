@@ -11,7 +11,7 @@ export default function PostersContainer({posters, onRemove}){
 )
 
     return(
-        <div className="flex container">
+        <div className="">
             {mappedPosters}
         </div>
     )
